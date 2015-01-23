@@ -14,7 +14,7 @@ Set equal heights to your rows.
 
 
 #### Installation
-Download the script from this page and include the following script tag just after the closing `</body` tag, or you know, use some browserify magic to bundle it with your other scripts.
+Download the script from this page and include the following script tag just after the closing `</body>` tag, or you know, use some browserify magic to bundle it with your other scripts.
 ```html
 <script src="/path/to/equalizer.min.js"></script>
 ```

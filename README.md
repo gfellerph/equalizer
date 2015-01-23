@@ -27,11 +27,11 @@ $ bower install maxomedia/equalizer --save
 #### Options
 ```javascript
 var options = {
-  childSelector: '.child', // A jquery selector for the child containers
+  childSelector: '.child',    // A jquery selector for the child containers
   updateEventName: 'resize'   // Which event you want to listen to (on $(window))
 };
 ```
-
+If, for example, you have included the throttled-resize script from this site (https://github.com/louisremi/jquery-smartresize) or an equivalent one, you can pass `{updateEventName: 'throttledresize'}` to the initialize function. If you do, the heights don't get recalculated too often, thus reducing overhead.
 
 #### Functions
 ```javascript

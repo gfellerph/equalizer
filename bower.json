@@ -1,0 +1,21 @@
+{
+  "name": "equalizer",
+  "main": "equalizer.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/maxomedia/equalizer",
+  "authors": [
+    "tuelsch <tuelsch@gmail.com>"
+  ],
+  "description": "Set equal height on your rows.",
+  "keywords": [
+    "jquery-plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
